@@ -14,5 +14,6 @@ with open("subtitles.html", "w") as f:
     for i in srt:
         
         f.write("{}\n".format(i))
+        print("Open the HTML file and read the transcript.")
 
 
